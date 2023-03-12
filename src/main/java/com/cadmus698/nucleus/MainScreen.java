@@ -21,6 +21,7 @@ public class MainScreen extends JFrame{
     }
     public static void main(String[] args) {
         MainScreen gui = new MainScreen();
+
         gui.setDefaultCloseOperation(EXIT_ON_CLOSE);
         gui.setTitle("Grade Management");
         gui.setVisible(true);
